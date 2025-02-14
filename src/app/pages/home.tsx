@@ -102,7 +102,7 @@ export default function HomePage() {
         </div>
       ) : (
         <div className="messages">
-          <h1 className={dancingScript.className}>Para mi Amor 💌</h1>
+          <h1 className={dancingScript.className}>Para Lizeth 💌</h1>
           <div className="time-together">
             <p>Llevamos juntos:</p>
             <p>
