@@ -1,0 +1,157 @@
+/* body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+  color: black;
+  overflow: hidden;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heart-message {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s, background 0.3s;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.heart-message:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.heart-message:active {
+  transform: scale(0.95);
+}
+*/
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* App.css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(45deg, #ff6f61, #ffcc99);
+  background-size: 200% 200%;
+  animation: gradientAnimation 10s ease infinite;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.heart {
+  font-size: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.heart-message {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s, background 0.3s;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heart-message:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.heart-message:active {
+  transform: scale(0.95);
+}
+
+.time-together {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
